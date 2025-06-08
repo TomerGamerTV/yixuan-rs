@@ -20,7 +20,7 @@
 - [SDK server](https://git.xeondev.com/reversedrooms/hoyo-sdk)
 ##### NOTE: this server doesn't include the sdk server as it's not specific per game. You can use `hoyo-sdk` with this server.
 
-#### For additional help, you can join the Original Dev's Server: [discord server](https://discord.xeondev.com)
+#### [Discord server of the originak creator.](https://discord.xeondev.com)
 
 ### Setup
 #### a) building from sources
