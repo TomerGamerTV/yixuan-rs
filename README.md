@@ -20,8 +20,6 @@
 - [SDK server](https://git.xeondev.com/reversedrooms/hoyo-sdk)
 ##### NOTE: this server doesn't include the sdk server as it's not specific per game. You can use `hoyo-sdk` with this server.
 
-#### For additional help, you can join the Original Dev's Server: [discord server](https://discord.xeondev.com)
-
 ### Setup
 #### a) building from sources
 ```sh
@@ -56,7 +54,6 @@ The MainCity quests and TV mode levels are highly customizable by their nature. 
 ![tv_mode](assets/img/tv_mode.png)
 
 ## Acknowledgements
-- Special thanks to @TomerGamerTV for assistance with migrating the database to SQLite.
+- Special thanks to @[TomerGamerTV](https://x.com/tomergamertv) for assistance with migrating the database to SQLite.
+- Server created by [@Xeondev](https://discord.xeondev.com)
 
-### Support
-Your support for this project is greatly appreciated! If you'd like to contribute, feel free to send a tip [via Boosty](https://boosty.to/xeondev/donate)!
