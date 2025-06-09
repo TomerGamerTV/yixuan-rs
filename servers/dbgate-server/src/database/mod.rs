@@ -63,7 +63,7 @@ impl DbConnection {
             .await?;
 
         // Changed migration path and removed match statement
-        sqlx::migrate!("./migrations").run(&pool).await?;
+        sqlx::migrate!("./migrations/sqlite").run(&pool).await?;
         Ok(Self(pool)) // Only return pool
     }
 

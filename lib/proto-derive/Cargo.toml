@@ -1,3 +1,5 @@
+cargo-features = ["edition2024"]
+
 [package]
 name = "proto-derive"
 description = "Forked prost-derive but with sane maintainers (reversedrooms)"

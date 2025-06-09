@@ -1,3 +1,5 @@
+cargo-features = ["edition2024"]
+
 [package]
 name = "yixuan-proto"
 edition = "2024"
@@ -12,4 +14,3 @@ proto-derive = { path = "../proto-derive" }
 prost-build.workspace = true
 syn.workspace = true
 prettyplease.workspace = true
-
