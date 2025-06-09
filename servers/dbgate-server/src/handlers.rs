@@ -5,10 +5,10 @@ use tokio::sync::{mpsc, oneshot};
 use tracing::{debug, error, warn};
 use yixuan_proto::{
     server_only::{
-        PlayerData, PlayerDataChangedNotify, PlayerGetDataReq, PlayerGetDataRsp, // Existing
-        AbyssData, ArchiveData, AvatarData, BasicData, BigSceneData, BuddyData, // Added
-        GachaData, HollowData, ItemData, MainCityData, MapData, MiscData,       // Added
-        QuestData, SceneData                                                    // Added
+        PlayerData, PlayerDataChangedNotify, PlayerGetDataReq, PlayerGetDataRsp,
+        AbyssData, ArchiveData, AvatarData, /* BasicData removed */ BigSceneData, BuddyData,
+        GachaData, HollowData, ItemData, MainCityData, MapData, MiscData,
+        QuestData, SceneData
     },
     NetCmd, PlayerGetTokenCsReq, PlayerGetTokenScRsp,
     head::PacketHead,

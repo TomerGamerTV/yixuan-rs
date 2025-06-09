@@ -1,3 +1,5 @@
+cargo-features = ["edition2024"]
+
 [package]
 name = "yixuan-encryption"
 edition = "2024"

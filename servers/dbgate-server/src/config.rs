@@ -1,4 +1,3 @@
-use std::fmt; // Keep this import for the new Display impl
 use serde::Deserialize; // Keep this import
 
 #[derive(Deserialize)]

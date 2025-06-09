@@ -54,6 +54,5 @@ The MainCity quests and TV mode levels are highly customizable by their nature. 
 ![tv_mode](assets/img/tv_mode.png)
 
 ## Acknowledgements
-- Special thanks to @[TomerGamerTV](https://x.com/tomergamertv) for assistance with migrating the database to SQLite.
+- Special thanks to [@TomerGamerTV](https://x.com/tomergamertv) for assistance with migrating the database to SQLite.
 - Server created by [@Xeondev](https://discord.xeondev.com)
-
