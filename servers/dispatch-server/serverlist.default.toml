@@ -4,6 +4,7 @@ bound_sid = 1
 sid = 1
 bind_versions = [
 	"CNBetaWin2.1.1",
+	"CNBetaWin2.0.5",
 ]
 name = "yixuan_rs"
 title = "Yixuan-RS"

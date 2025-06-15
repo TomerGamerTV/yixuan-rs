@@ -16,9 +16,9 @@
 ## Getting started
 ### Requirements
 - [Rust 1.86+](https://www.rust-lang.org/tools/install)
-- [PostgreSQL](https://www.postgresql.org/download/)
 - [SDK server](https://git.xeondev.com/reversedrooms/hoyo-sdk)
 ##### NOTE: this server doesn't include the sdk server as it's not specific per game. You can use `hoyo-sdk` with this server.
+##### NOTE: dbgate-server now uses SQLite by default (no external database setup required).
 
 #### For additional help, you can join our [discord server](https://discord.xeondev.com)
 
@@ -41,7 +41,7 @@ cargo run --bin yixuan-muip-server
 The configuration of each server is located under the `config` directory (created upon first startup)
 - To change network settings for internal server communication, edit the: `config/00-service/environment.toml`
 - To change network settings for outer communication (e.g. with the game client), edit the dispatch-server and gate-server configuration, located in `config/10-dispatch-server/config.toml` and `config/20-gate-server/config.toml` respectively.
-- To change database connection settings, edit the dbgate-server configuration, located in: `config/30-dbgate-server/config.toml`
+- To change database settings (SQLite file path), edit the dbgate-server configuration, located in: `config/30-dbgate-server/config.toml`
 - To change gameplay-related settings, edit one of game-server configuration files, for example: gacha banner schedule is located in: `config/40-game-server/gacha_schedule.toml`
 
 ### Logging in
