@@ -1,5 +1,3 @@
-use std::collections::HashMap;
-
 use config::ServerConfig;
 use const_format::concatcp;
 use database::DbConnection;
